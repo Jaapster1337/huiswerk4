@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
 /*////////////////////////
     Table of Contents
     1. Global Styles
@@ -20,10 +21,22 @@
 }
 
 /* ------------------------------- 2. Typography ----------------------------------- */
+/*font-family: 'Merriweather', serif;*/
+/*font-family: 'Roboto', sans-serif;*/
 
 /* ------------------------------- 3. Layout --------------------------------------- */
 
 /* --------------- 3.1 Reusables ----------------------- */
+
+:root{
+    --purple: #5722CD;
+    --blue: #4845E4;
+    --pink: #ED4385;
+    --black: #0C0C0C;
+    --light-purple: #F2F0FF;
+    --light-grey: #F3F6F9;
+    --grey: #7A7A7A;
+}
 
 /* --------------- 3.2 Other --------------------------- */
 
