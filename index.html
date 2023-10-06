@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Rolling Stone</title>
 </head>
 <body>
@@ -10,9 +11,9 @@
     <div class="inner-container">
         <nav class="header-content__navigation">
             <ul>
-                <li>case studies</li>
-                <li>services</li>
-                <li>contact us</li>
+                <li><a href="#case-studies">case studies</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#contact-us">contact us</a></li>
             </ul>
         </nav>
         <div class="header-content__hero default-text-restrictor">
@@ -52,34 +53,38 @@
 
         </article>
     </section>
-    <section class="article-outer-container">
+    <section class="article-outer-container" id="case-studies">
         <article class="article-1">
-            <div class="text-wrapper">
-                <h2>Rolling Stone</h2>
-                <span class="squiggle">
+            <div class="text-box">
+                <div class="text-wrapper">
+                    <h2>Rolling Stone</h2>
+                    <span class="squiggle">
                     <img src="assets/squiggle_line.svg" alt="">
                 </span>
-                <p>
-                    You know Rolling Stone. It’s the definitive voice in music, politics and culture. It’s a global
-                    icon.
-                </p>
-                <a href="">view project</a>
+                    <p>
+                        You know Rolling Stone. It’s the definitive voice in music, politics and culture. It’s a global
+                        icon.
+                    </p>
+                    <a href="">view project</a>
+                </div>
             </div>
             <span class="image-wrapper__articles">
                 <img src="assets/work-image-01.jpeg" alt=""/>
             </span>
         </article>
         <article class="article-2">
-            <div class="text-wrapper">
-                <h2>Variety</h2>
-                <span class="squiggle">
+            <div class="text-box">
+                <div class="text-wrapper">
+                    <h2>Variety</h2>
+                    <span class="squiggle">
                     <img src="assets/squiggle_line.svg" alt="">
                 </span>
-                <p>
-                    You know Rolling Stone. It’s the definitive voice in music, politics and culture. It’s a global
-                    icon.
-                </p>
-                <a href="">view project</a>
+                    <p>
+                        You know Rolling Stone. It’s the definitive voice in music, politics and culture. It’s a global
+                        icon.
+                    </p>
+                    <a href="#contact-us">view project</a>
+                </div>
             </div>
             <span class="image-wrapper__articles">
                 <img src="assets/work-image-02.jpeg" alt=""/>
@@ -106,7 +111,7 @@
     </section>
     <section class="services-outer">
         <div class="services-inner">
-            <article>
+            <article id="services">
                 <div class="article-border">
                     <img src="assets/icon_web-design.svg" alt="">
                     <h3>Web Design</h3>
@@ -173,7 +178,7 @@
     </section>
 </main>
 <footer>
-    <div class="form-wrapper">
+    <div class="form-wrapper" id="contact-us">
         <h1>Let's work together</h1>
         <p>
             Have a question? Need a quote? Let us know!
